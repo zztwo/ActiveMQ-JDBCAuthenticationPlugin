@@ -9,13 +9,11 @@ import org.springframework.jdbc.core.JdbcTemplate;
  */
 public class JdbcAuthenticationPlugin implements BrokerPlugin {
     private JdbcTemplate jdbcTemplate;
-    private String verifySql;
 
     @Override
     public Broker installPlugin(Broker parent) throws Exception {
         JdbcAuthenticationBroker broker = new JdbcAuthenticationBroker(parent);
         broker.setJdbcTemplate(this.getJdbcTemplate());
-        broker.setVerifySql(this.getVerifySql());
         return broker;
     }
 
@@ -27,11 +25,4 @@ public class JdbcAuthenticationPlugin implements BrokerPlugin {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    public String getVerifySql() {
-        return verifySql;
-    }
-
-    public void setVerifySql(String verifySql) {
-        this.verifySql = verifySql;
-    }
 }

@@ -17,6 +17,7 @@
       <root url="jar://$PROJECT_DIR$/exlib/jcl-over-slf4j-1.7.13.jar!/" />
       <root url="jar://$PROJECT_DIR$/exlib/mysql-connector-java-5.1.39-bin.jar!/" />
       <root url="jar://$PROJECT_DIR$/exlib/slf4j-api-1.7.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/log4j-1.2.17.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
