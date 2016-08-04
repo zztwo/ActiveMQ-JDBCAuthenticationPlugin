@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="activemq-broker-5.13.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-broker-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-client-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-console-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-jaas-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-kahadb-store-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-openwire-legacy-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-protobuf-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-spring-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/activemq-web-5.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/geronimo-j2ee-management_1.1_spec-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/geronimo-jta_1.0.1B_spec-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/hawtbuf-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/jcl-over-slf4j-1.7.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/mysql-connector-java-5.1.39-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/exlib/slf4j-api-1.7.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
