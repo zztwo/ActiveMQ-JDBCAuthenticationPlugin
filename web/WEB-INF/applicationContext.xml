@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/device?useUnicode=true&amp;characterEncoding=UTF-8" />
+        <property name="username" value="root" />
+        <property name="password" value="root" />
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="datasource" />
+    </bean>
+
+    <!--<plugins>-->
+        <bean xmlns="http://www.springframework.org/schema/beans"
+              id="JdbcAuthenticationPlugin"
+              class="indiv.zztwo.activemq.security.JdbcAuthenticationPlugin">
+            <property name="jdbcTemplate" ref="jdbcTemplate" />
+            <property name="verifySql" value="" />
+        </bean>
+    <!--</plugins>-->
+
+</beans>
